@@ -1,0 +1,12 @@
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/bin/Debug/net6.0/Libros.Shared.deps.json
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/bin/Debug/net6.0/Libros.Shared.dll
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/bin/Debug/net6.0/ref/Libros.Shared.dll
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/bin/Debug/net6.0/Libros.Shared.pdb
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.csproj.AssemblyReference.cache
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.AssemblyInfoInputs.cache
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.AssemblyInfo.cs
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.csproj.CoreCompileInputs.cache
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.dll
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/ref/Libros.Shared.dll
+/home/ricardog/Documents/Universidad/Semestre8/Libros/Shared/obj/Debug/net6.0/Libros.Shared.pdb

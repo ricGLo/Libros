@@ -1,0 +1,8 @@
+@page "/checkout"
+
+@using Libros.Shared.Services
+
+@inject CartService CartService
+
+<h3>You have @CartService.SelectedItems.Count in cart:</h3>
+<ProductList Products="CartService.SelectedItems"></ProductList>
