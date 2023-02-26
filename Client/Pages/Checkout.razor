@@ -11,6 +11,7 @@
 <h3> Tienes @CartService.SelectedItems.Count libros en tu carrito de compras:</h3>
 <ProductList Products="CartService.SelectedItems"></ProductList>
 
+<h3> Debes un total de $@CartService.TotalPagar </h3>
 
 <EditForm class="vstack gap-3" Model="CheckoutForm" OnValidSubmit="SubmitAsync">
     <DataAnnotationsValidator></DataAnnotationsValidator>
@@ -30,6 +31,9 @@
         <button class="btn btn-primary" type="submit">Pagar y enviar</button>
     </div>
 </EditForm>
+
+<br/>
+<br/>
 
 @code {
     public CheckoutForm CheckoutForm { get; set; } = new();

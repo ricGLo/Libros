@@ -196,15 +196,15 @@
       "mscorlib.dll": "sha256-KqZqU1imWCwJ9UPDElyoolN8s7Yqhjk67wuOohFN5KA=",
       "netstandard.dll": "sha256-kBK\/QJy7\/skP97jqnvXnOFMrhWS8HZ1bsADFK\/gZkyM=",
       "System.Private.CoreLib.dll": "sha256-3webPuyNUXfAFKY5c1tC\/jBVrjZHelBwvXrr1E9VJuk=",
-      "Libros.Shared.dll": "sha256-TSh9fjy1CqtCY6F0rnerI1wA3liYDGDVByoz6nfFvKs=",
-      "Libros.Client.dll": "sha256-i4L242nsALd\/5bH4bptISm5d5tRwUdck620pGiOCIPw="
+      "Libros.Shared.dll": "sha256-1TA3dzqG1mgGf9Zh8JzzHBmGqygIk+yMS\/uu6HmifoU=",
+      "Libros.Client.dll": "sha256-9m4LAZxg1Ng99p+cxY33cCYtT9XESSh4ttmVP41iWrU="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "Libros.Shared.pdb": "sha256-SjjUVCWnl+IFzhLKeqquMezZWb2DIwj2eK5jXVKIrKg=",
-      "Libros.Client.pdb": "sha256-3KJSFOVNPsEOWJSIM+BF62XJEfkKtZ\/7ttoYjGTWqp8="
+      "Libros.Shared.pdb": "sha256-RLORtPOvoqkZGDn4kVUiBgVH9cYyGL3EjtKaHb3BD9I=",
+      "Libros.Client.pdb": "sha256-TqDQ3VQ93kOuT3oVg7om9Rfj04RFo8YRsyrCsa\/YwQ8="
     },
     "runtime": {
       "dotnet.6.0.13.4h00l9ym0j.js": "sha256-X\/515F1HEzgsDZdY8BJjt8YUwrWngHGZkMnpClhsrpY=",
