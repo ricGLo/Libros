@@ -5087,43 +5087,6 @@
         }
       },
       {
-        "HashCode": -1722284779,
-        "Kind": "Components.Component",
-        "Name": "Libros.Client.Pages.Checkout",
-        "AssemblyName": "Libros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Checkout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Libros.Client.Pages.Checkout",
-          "Common.TypeNamespace": "Libros.Client.Pages",
-          "Common.TypeNameIdentifier": "Checkout"
-        }
-      },
-      {
-        "HashCode": 1186345794,
-        "Kind": "Components.Component",
-        "Name": "Libros.Client.Pages.Checkout",
-        "AssemblyName": "Libros.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Libros.Client.Pages.Checkout"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Libros.Client.Pages.Checkout",
-          "Common.TypeNamespace": "Libros.Client.Pages",
-          "Common.TypeNameIdentifier": "Checkout",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1067983607,
         "Kind": "Components.Component",
         "Name": "Libros.Client.Pages.Index",
@@ -5157,6 +5120,43 @@
           "Common.TypeName": "Libros.Client.Pages.Index",
           "Common.TypeNamespace": "Libros.Client.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1722284779,
+        "Kind": "Components.Component",
+        "Name": "Libros.Client.Pages.Checkout",
+        "AssemblyName": "Libros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Libros.Client.Pages.Checkout",
+          "Common.TypeNamespace": "Libros.Client.Pages",
+          "Common.TypeNameIdentifier": "Checkout"
+        }
+      },
+      {
+        "HashCode": 1186345794,
+        "Kind": "Components.Component",
+        "Name": "Libros.Client.Pages.Checkout",
+        "AssemblyName": "Libros.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Libros.Client.Pages.Checkout"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Libros.Client.Pages.Checkout",
+          "Common.TypeNamespace": "Libros.Client.Pages",
+          "Common.TypeNameIdentifier": "Checkout",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

@@ -1,11 +1,41 @@
 @page "/checkout"
 
 @using Libros.Shared.Services
+@using Libros.Shared.Models
 
 @inject CartService CartService
-
+@inject IJSRuntime JSRuntime
 
 <h1 style="text-align:center">  Carrito de compras  </h1>
 
 <h3> Tienes @CartService.SelectedItems.Count libros en tu carrito de compras:</h3>
 <ProductList Products="CartService.SelectedItems"></ProductList>
+
+
+<EditForm class="vstack gap-3" Model="CheckoutForm" OnValidSubmit="SubmitAsync">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div>
+        <label class="form-label" for="name">Nombre:</label>
+        <InputText id="name" class="form-control" @bind-Value="CheckoutForm.Name"></InputText>
+        <ValidationMessage class="form-control" For="()=>CheckoutForm.Name"></ValidationMessage>
+    </div>
+
+    <div>
+        <label class="form-label" for="address">Domicilio:</label>
+        <InputText id="address" class="form-control" @bind-Value="CheckoutForm.Address"></InputText>
+        <ValidationMessage class="form-control" For="()=>CheckoutForm.Address"></ValidationMessage>
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit">Pagar y enviar</button>
+    </div>
+</EditForm>
+
+@code {
+    public CheckoutForm CheckoutForm { get; set; } = new();
+
+    private async Task SubmitAsync()
+    {
+        await JSRuntime.InvokeVoidAsync("alert", $"Gracias {CheckoutForm.Name}, tu pedido llegará a {CheckoutForm.Address} en unos días.");
+    }
+}
