@@ -10,7 +10,10 @@ namespace Libros.Shared.Models;
 public class Product
 {
     public Guid Id { get; set; }
-    public string Name { get; set; } = "";
-    public string Description { get; set; } = "";
-    public double Price { get; set; }
+    public string Titulo { get; set; }  = "";
+    public string Editorial { get; set; }  = "";
+    public string ISBN { get; set; }  = "";
+    public int Edicion { get; set; } 
+    public float Precio { get; set; }
+    public string Imagen { get; set; }  = "";
 }

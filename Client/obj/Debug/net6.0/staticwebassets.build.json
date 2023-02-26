@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fGcD9jLv+sJcPhoycg+lJHW7UT2aFwPylvXnpz3uKlE=",
+  "Hash": "DKmRTNphX7sI/Y3gwl6CfeQ328IODngQFyNBDddVcJE=",
   "Source": "Libros.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -7138,6 +7138,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/icon-192.png"
+    },
+    {
+      "Identity": "/home/ricardog/Documents/Universidad/Semestre8/Libros/Client/wwwroot/images/logo.png",
+      "SourceId": "Libros.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ricardog/Documents/Universidad/Semestre8/Libros/Client/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
+    },
+    {
+      "Identity": "/home/ricardog/Documents/Universidad/Semestre8/Libros/Client/wwwroot/images/logo2.png",
+      "SourceId": "Libros.Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/ricardog/Documents/Universidad/Semestre8/Libros/Client/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "images/logo2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo2.png"
     },
     {
       "Identity": "/home/ricardog/Documents/Universidad/Semestre8/Libros/Client/wwwroot/index.html",

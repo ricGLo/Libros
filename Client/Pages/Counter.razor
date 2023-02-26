@@ -1,18 +1,15 @@
-﻿@page "/counter"
+﻿@page "/Counter"
 
-<PageTitle>Counter</PageTitle>
+@using Libros.Shared.Models
+@using Libros.Shared.Services
 
-<h1>Counter</h1>
+<PageTitle>Catálogo</PageTitle>
 
-<p role="status">Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+<h1 style="text-align:center">  Catálogo  </h1>
+<ProductList Products="Products" DisplayBuyButton="true"></ProductList>
+
 
 @code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
+    public List<Product> Products { get; set; } = ProductProviderService.Products.ToList();
 }
